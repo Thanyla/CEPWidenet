@@ -1,10 +1,11 @@
 package com.thanyla.cepservice;
 
+import javax.enterprise.context.Dependent;
 
 public class ViaCepService extends AbstractCepService {
 
-    public ViaCepService(String dominio) {
-        super(dominio);
+    public ViaCepService() {
+        super("https://viacep.com.br");
     }
 
     @Override

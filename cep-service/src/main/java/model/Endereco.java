@@ -1,4 +1,4 @@
-package com.thanyla.cepservice;
+package model;
 
 /**
  *
